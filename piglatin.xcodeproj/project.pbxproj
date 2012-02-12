@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31784DDB14E8319300205FE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31784DDA14E8319300205FE3 /* Foundation.framework */; };
+		31784DDE14E8319300205FE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31784DDD14E8319300205FE3 /* main.m */; };
+		31784DED14E83B7000205FE3 /* libedit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 31784DEC14E83B7000205FE3 /* libedit.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		31784DD414E8319300205FE3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		31784DD614E8319300205FE3 /* piglatin */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = piglatin; sourceTree = BUILT_PRODUCTS_DIR; };
+		31784DDA14E8319300205FE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31784DDD14E8319300205FE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31784DE014E8319300205FE3 /* piglatin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "piglatin-Prefix.pch"; sourceTree = "<group>"; };
+		31784DEC14E83B7000205FE3 /* libedit.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libedit.dylib; path = usr/lib/libedit.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31784DD314E8319300205FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31784DDB14E8319300205FE3 /* Foundation.framework in Frameworks */,
+				31784DED14E83B7000205FE3 /* libedit.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31784DCB14E8319300205FE3 = {
+			isa = PBXGroup;
+			children = (
+				31784DDC14E8319300205FE3 /* piglatin */,
+				31784DD914E8319300205FE3 /* Frameworks and Libraries */,
+				31784DD714E8319300205FE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31784DD714E8319300205FE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31784DD614E8319300205FE3 /* piglatin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31784DD914E8319300205FE3 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				31784DDA14E8319300205FE3 /* Foundation.framework */,
+				31784DEC14E83B7000205FE3 /* libedit.dylib */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		31784DDC14E8319300205FE3 /* piglatin */ = {
+			isa = PBXGroup;
+			children = (
+				31784DDD14E8319300205FE3 /* main.m */,
+				31784DDF14E8319300205FE3 /* Supporting Files */,
+			);
+			path = piglatin;
+			sourceTree = "<group>";
+		};
+		31784DDF14E8319300205FE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31784DE014E8319300205FE3 /* piglatin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31784DD514E8319300205FE3 /* piglatin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31784DE514E8319300205FE3 /* Build configuration list for PBXNativeTarget "piglatin" */;
+			buildPhases = (
+				31784DD214E8319300205FE3 /* Sources */,
+				31784DD314E8319300205FE3 /* Frameworks */,
+				31784DD414E8319300205FE3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piglatin;
+			productName = piglatin;
+			productReference = 31784DD614E8319300205FE3 /* piglatin */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31784DCD14E8319300205FE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 31784DD014E8319300205FE3 /* Build configuration list for PBXProject "piglatin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31784DCB14E8319300205FE3;
+			productRefGroup = 31784DD714E8319300205FE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31784DD514E8319300205FE3 /* piglatin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31784DD214E8319300205FE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31784DDE14E8319300205FE3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		31784DE314E8319300205FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31784DE414E8319300205FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31784DE614E8319300205FE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piglatin/piglatin-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		31784DE714E8319300205FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "piglatin/piglatin-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31784DD014E8319300205FE3 /* Build configuration list for PBXProject "piglatin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31784DE314E8319300205FE3 /* Debug */,
+				31784DE414E8319300205FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31784DE514E8319300205FE3 /* Build configuration list for PBXNativeTarget "piglatin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31784DE614E8319300205FE3 /* Debug */,
+				31784DE714E8319300205FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31784DCD14E8319300205FE3 /* Project object */;
+}
