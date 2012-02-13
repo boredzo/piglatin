@@ -8,3 +8,8 @@ Usage looks like this:
 <pre>% <kbd>piglatin</kbd>
 <kbd>Please give me an apple</kbd>
 Easeplay ivegay emay anway appleway.</pre>
+
+### A couple of notes for developers
+
+- The program works in-place on a single NSMutableString. This is explicitly allowed by the aforementioned method.
+- Punctuation is handled correctly with no additional work. Think of all the edge and corner cases you used to have to nail down—now, you send one message, and your block gets called with every word and nothing else.
