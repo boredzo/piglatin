@@ -12,4 +12,4 @@ Easeplay ivegay emay anway appleway.</pre>
 ### A couple of notes for developers
 
 - The program works in-place on a single NSMutableString. This is explicitly allowed by the aforementioned method.
-- Punctuation is handled correctly with no additional work. Think of all the edge and corner cases you used to have to nail down—now, you send one message, and your block gets called with every word and nothing else.
+- Punctuation is handled correctly with no additional work. Think of all the edge and corner cases you used to have to nail down when searching for words in a string—now, you send one message, your block gets called with every word, and everything else remains undisturbed.
